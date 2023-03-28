@@ -14,8 +14,6 @@ github.com/Shopify/sarama v1.23.0 h1:slvlbm7bxyp7sKQbUwha5BQdZTqurhRoI+zbKorVigQ
 github.com/Shopify/sarama v1.23.0/go.mod h1:XLH1GYJnLVE0XCr6KdJGVJRTwY30moWNJ4sERjXX6fs=
 github.com/Shopify/toxiproxy v2.1.4+incompatible h1:TKdv8HiTLgE5wdJuEML90aBgNWsokNbMijUGhmcoBJc=
 github.com/Shopify/toxiproxy v2.1.4+incompatible/go.mod h1:OXgGpZ6Cli1/URJOF1DMxUHB2q5Ap20/P/eIdh4G0pI=
-github.com/alyu/configparser v0.0.0-20191103060215-744e9a66e7bc h1:eN2FUvn4J1A31pICABioDYukoh1Tmlei6L3ImZUin/I=
-github.com/alyu/configparser v0.0.0-20191103060215-744e9a66e7bc/go.mod h1:BYq/NZTroWuzkvsTPJgRBqSHGxKMHCz06gtlfY/W5RU=
 github.com/aws/aws-sdk-go v1.15.54 h1:yNFryYgHYlEuNnMM74EZgAaOM2BsJvu77/ev9I9GHlU=
 github.com/aws/aws-sdk-go v1.15.54/go.mod h1:mFuSZ37Z9YOHbQEwBWztmVzqXrEkub65tZoCYDt7FT0=
 github.com/bmizerany/assert v0.0.0-20120716205630-e17e99893cb6 h1:tqaG4PIbPslIfl+dhNXWUXRTgPI4Dpx7LaDQ6fS9mGM=
@@ -58,12 +56,11 @@ github.com/gorilla/handlers v1.4.0 h1:XulKRWSQK5uChr4pEgSE4Tc/OcmnU9GJuSwdog/tZs
 github.com/gorilla/handlers v1.4.0/go.mod h1:Qkdc/uu4tH4g6mTK6auzZ766c4CA0Ng8+o/OAirnOIQ=
 github.com/gorilla/mux v0.0.0-20140624184626-14cafe285133 h1:ukbzVQxXffKnAteyOe2SD8pYokHCMYrLVygg6x1tCC0=
 github.com/gorilla/mux v0.0.0-20140624184626-14cafe285133/go.mod h1:1lud6UwP+6orDFRuTfBEV8e9/aOM/c4fVVCaMa2zaAs=
-github.com/grafana/configparser v0.0.0-20210622142741-3e3967fd8d20 h1:vU/muwCTymcNiJZvuYzPtebHNkDPH8FF42QWBGMO3ms=
-github.com/grafana/configparser v0.0.0-20210622142741-3e3967fd8d20/go.mod h1:5kq854/YXuu4gJm0A2hON7r5IeAKTpap20ARcCZSugw=
 github.com/grafana/configparser v0.0.0-20210707122942-2593eb86a3ee h1:5j5kbjPdpun9I6taPXXvQnjUYaHxHg4Akgrh9JGB+4k=
 github.com/grafana/configparser v0.0.0-20210707122942-2593eb86a3ee/go.mod h1:5kq854/YXuu4gJm0A2hON7r5IeAKTpap20ARcCZSugw=
 github.com/grafana/metrictank v1.0.1-0.20221128152741-61182cf5f40e h1:Nv6VFe2R0OZRRTJzLqTno+mPL9VNat8zLUE1zzSUDko=
-github.com/grafana/metrictank v1.0.1-0.20221128152741-61182cf5f40e/go.mod h1:+W7kcYMB3XFMCQdmZSrXvqb8KCE84tQMaijapcRbptE=github.com/hashicorp/go-uuid v1.0.1 h1:fv1ep09latC32wFoVwnqcnKJGnMSdBanPczbHAYm1BE=
+github.com/grafana/metrictank v1.0.1-0.20221128152741-61182cf5f40e/go.mod h1:+W7kcYMB3XFMCQdmZSrXvqb8KCE84tQMaijapcRbptE=
+github.com/hashicorp/go-uuid v1.0.1 h1:fv1ep09latC32wFoVwnqcnKJGnMSdBanPczbHAYm1BE=
 github.com/hashicorp/go-uuid v1.0.1/go.mod h1:6SBZvOh/SIDV7/2o3Jml5SYk/TvGqwFJ/bN7x4byOro=
 github.com/jcmturner/gofork v0.0.0-20190328161633-dc7c13fece03 h1:FUwcHNlEqkqLjLBdCp5PRlCFijNjvcYANOZXzCfXwCM=
 github.com/jcmturner/gofork v0.0.0-20190328161633-dc7c13fece03/go.mod h1:MK8+TM0La+2rjBD4jE12Kj1pCCxK7d2LK/UM3ncEo0o=
@@ -131,8 +128,9 @@ golang.org/x/sync v0.0.0-20181221193216-37e7f081c4d4 h1:YUO/7uOKsKeq9UokNS62b8FY
 golang.org/x/sync v0.0.0-20181221193216-37e7f081c4d4/go.mod h1:RxMgew5VJxzue5/jJTE5uejpjVlOe/izrB70Jof72aM=
 golang.org/x/sys v0.0.0-20180905080454-ebe1bf3edb33/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
 golang.org/x/sys v0.0.0-20190215142949-d0b11bdaac8a/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
-golang.org/x/sys v0.0.0-20190403152447-81d4e9dc473e h1:nFYrTHrdrAOpShe27kaFHjsqYSEQ0KWqdWLu3xuZJts=
 golang.org/x/sys v0.0.0-20190403152447-81d4e9dc473e/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
+golang.org/x/sys v0.3.0 h1:w8ZOecv6NaNa/zC8944JTU3vz4u6Lagfk4RPQxv92NQ=
+golang.org/x/sys v0.3.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/text v0.3.0/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=
 golang.org/x/text v0.3.1-0.20171227012246-e19ae1496984 h1:4S3Dic2vY09agWhKAjYa6buMB7HsLkVrliEHZclmmSU=
 golang.org/x/text v0.3.1-0.20171227012246-e19ae1496984/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=

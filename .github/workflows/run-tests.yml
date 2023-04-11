@@ -28,7 +28,7 @@ jobs:
             docker run \
               -v "${PWD}/.circleci/:/circleci" \
               mikefarah/yq \
-              '.jobs.build.docker[] | select(.image | test("^circleci/golang:")) | .image' \
+              '.jobs.build.docker[] | select(.image | test("^cimg/go:")) | .image' \
               /circleci/config.yml
           )
           echo "$CIRCLECI_GOLANG_BUILD_IMAGE"
